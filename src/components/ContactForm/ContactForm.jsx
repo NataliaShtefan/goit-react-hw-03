@@ -24,7 +24,7 @@ const ContactForm = ({ addContact }) => {
     
       const handleSubmit = (data, actions) => {
         addContact(data);
-        console.log(data);
+       
         actions.resetForm();
       };
     
