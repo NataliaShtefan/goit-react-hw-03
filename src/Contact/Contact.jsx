@@ -9,7 +9,6 @@ const Contact = ({ firstName, number}) => {
       <p> <FaUserAlt  className={s.icon}/> {firstName}</p>
       <p> <FaPhone className={s.icon}/> {number}</p>
       </div>
-      <button className={s.btn}>Delete</button>
     </>
   )
 }
