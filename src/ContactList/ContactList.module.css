@@ -1,0 +1,14 @@
+.contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 280px;
+}
+
+.contact {
+    border: 1px solid black;
+    padding: 12px 16px;
+    border-radius: 4px;
+    display: flex;
+justify-content: space-between;
+}
