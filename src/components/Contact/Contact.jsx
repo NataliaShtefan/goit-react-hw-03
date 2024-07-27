@@ -1,6 +1,6 @@
 import s from "./Contact.module.css"
 import { FaUserAlt } from "react-icons/fa";
-import { FaPhone } from "react-icons/fa6";
+import { FaPhone } from "react-icons/fa";
 
 const Contact = ({ firstName, number, id, deleteContact}) => {
   return (
